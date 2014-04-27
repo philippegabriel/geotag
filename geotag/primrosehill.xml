@@ -1,0 +1,51 @@
+<markers>
+	<title text="Primrose Hill April 2006"/>
+  <filesystem text="flickr"/>
+  <zoomFactor level1="13" level2="14"/>
+  <marker lng="-0.160546" lat="51.539075"/>
+	<picture level="1" text="Overlooking London" 
+		caption="Looking East"
+		filename="http://static.flickr.com/47/137076125_73e10369d4"/>
+	<marker lng="-0.160546" lat="51.539075"/>
+	<picture level="2" text="Overlooking London" 
+    filename="http://static.flickr.com/56/137076171_27bf6a8d6a"/>
+	<marker lng="-0.160546" lat="51.539075"/>
+	<picture level="2" text="Overlooking London" 
+		caption="Towards the city and St Paul's Dome right in the center"
+		filename="http://static.flickr.com/56/137076217_86e30ba212"/>
+	<marker lng="-0.160546" lat="51.539075"/>
+	<picture level="2" text="Overlooking London" 
+		caption="Zoo aviary in the foreground, BT tower and London Eye in the background"
+		filename="http://static.flickr.com/47/137074641_722d36cf88"/>
+	<marker lng="-0.160546" lat="51.539075"/>
+	<picture level="2" text="Overlooking London" 
+   filename="http://static.flickr.com/55/137074693_3794488e6e"/>
+	<marker lng="-0.154538" lat="51.53678"/>
+	<picture level="1" text="Over the Grand Union Canal" 
+		caption="Crossing the Grand Union Canal towards Regents Park, looking West, towards the Zoo Aviary. Google Maps is missing the bridge :-)" 
+		filename="http://static.flickr.com/48/137078019_af9ea91a1e"/>
+	<marker lng="-0.15258" lat="51.537193"/>
+	<picture level="2" text="Over the Grand Union Canal"
+		filename="http://static.flickr.com/51/137078105_a5c7e778b1"/>
+  <marker lng="-0.15258" lat="51.537193"/>
+  <picture level="1" text="This is a neat church!"
+		filename="http://static.flickr.com/45/137078173_c34dcad99b"/>
+  <marker lng="-0.15258" lat="51.537193"/>
+  <picture level="1" text="Towards Camden"
+		filename="http://static.flickr.com/45/137078254_0b94db6c39"/>
+  <marker lng="-0.15258" lat="51.537193"/>
+  <picture level="1" text="The chinese restaurant"
+		filename="http://static.flickr.com/48/137078310_ff7d00e160"/>
+  <marker lng="-0.15258" lat="51.537193"/>
+  <picture level="1" text="Towards Regents Park"
+		filename="http://static.flickr.com/54/137078359_9ae40a071b"/>
+  <marker lng="-0.15258" lat="51.537193"/>
+  <picture level="1" text="A watchful Lion"
+		filename="http://static.flickr.com/47/137078398_ea07d83ea0"/>
+	<marker lng="-0.138917" lat="51.524352"/>
+	<picture level="1" text="I want one of these..."
+		caption="You can trust italians to design good looking bike"
+		filename="http://static.flickr.com/48/137078449_66cbfdef8d"/>
+
+
+</markers>

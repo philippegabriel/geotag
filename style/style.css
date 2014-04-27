@@ -1,0 +1,286 @@
+body {
+	padding: 0;
+	margin: 0;
+	font: 75% Verdana, Helvetica, Arial, sans-serif;
+	color: #333;
+	background: #fff url("/img/bg.gif");
+	text-align: center;
+}
+
+a:link {color:#66f;}
+a:visited {color:#fc3;}
+a:active {color: #fc3;}
+
+h1 {
+	font-weight:900;
+	color:#999;
+}
+
+
+h2 {
+	font-size: 1em;
+	font-weight: normal;
+	color: #999;
+	border-bottom: solid #999 1px;
+}
+/*#main h1 { 
+padding-bottom: 10px;
+}*/
+
+#main h2 {
+	width: 90%;
+}
+
+#sidebar h2 {
+	padding: 5px;
+	border: solid 1px #ccc; 
+	font-weight: bold;
+	color: #839D07;
+	background-color: #BFFC45;
+	margin: 5px 0 0 -6px;
+}
+
+h3 {
+	color: #66f;
+	font-size: 1em;
+}
+
+img, form {border: 0; margin: 0;}
+
+textarea, input {
+	font: 12px "Courier New",Courier,monospace;
+}
+
+abbr {
+	cursor: help;
+}
+
+blockquote {
+	padding-left: 10px;
+	border-left: 3px solid #ccc;
+}
+
+samp {
+	font-size:12px;
+	font-family:"Courier New",Courier,monospace;
+}
+
+label {
+	cursor: pointer;
+	cursor: hand;
+}
+
+q {
+        font-style:italic;
+}
+
+
+#content {
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+	background: #fff;
+	border:1px solid #999;
+}
+
+#logo {
+	padding: 10px 0px 0px 10px;
+}
+
+#topnav {
+	text-align: right;
+	margin-left: 0;
+	width: 100%;
+}
+
+#topnav ul {
+	padding-left: 0;
+	display: inline;
+} 
+
+#topnav ul li {
+	padding: 0px 5px;
+	border-left: 1px solid #333;
+	list-style: none;
+	display: inline;
+}
+
+#topnav ul li.first {
+	border-left: none;
+	list-style: none;
+	display: inline;
+}
+
+#topnav ul li a{
+	color: #66f;
+	text-decoration:none;
+}
+
+#tabs {
+	margin: 0;
+	padding: 10px 10px 20px 10px;
+	background: #e9e9e9 url(/img/bgfooter.gif) bottom left no-repeat;
+	}
+
+#tabs li {
+	margin: 0; 
+	padding: 0;
+	display: inline;
+	list-style-type: none;
+	}
+	
+#tabs a:link, #tabs a:visited {
+	float: left;
+	font-weight: bold;
+	margin: 0 10px 0px 10px;
+	text-decoration: none;
+	color: #333;
+}
+
+#tabs a.active:link, #tabs a.active:visited, #tabs a:hover {
+	color: #333;
+}
+
+#main {
+	line-height: 1.4;
+	background: #F6F7F7;
+	float: left;
+	padding: 10px 12px;
+	width: 428px;
+	/* Tantek hack - http://www.tantek.com/CSS/Examples/boxmodelhack.html */
+	voice-family: "\"}\""; 
+	voice-family: inherit;
+	width: 404px;
+}
+/* IE5 hack */
+#main {}
+
+#sidebar {
+	margin-left: 428px;
+	border-top: solid 1px #fff;
+	padding: 4px 0 0 7px;
+	background: #fff url("/img/sidebar.gif") 1px 0 no-repeat;
+}
+
+
+#footer {
+	clear: both;
+	background: #e9e9e9 url("/img/bgfooter.gif") bottom left no-repeat;
+}
+
+
+#main {line-height: 1.4;}
+
+
+#footer p {
+	font:  1em "Courier New",Courier,monospace;
+	margin: 0;
+	padding: 12px 8px;
+}
+
+#footer hr, .longitude, .latitude {display: none;}
+
+#prevnext {
+        margin-left: 0;
+	padding: 0;
+	list-style-type: none;
+        float: left;
+        width: 100%;
+}
+
+#prevnext li {
+	display: inline;
+	list-style-type: none;
+}
+
+#prev {
+        float: left;
+        padding-left: 15px;
+        background: url(/img/prv.png) no-repeat bottom left;
+}
+
+#next {
+        float: right;
+        padding-right: 15px;
+        background: url(/img/nxt.png) no-repeat bottom right;
+}
+
+
+.tagline {
+	font-weight: bold;
+	color: #666;
+}
+.nobullets {
+	line-height: 1.5;
+	list-style:none;
+	list-style-image:none;
+	padding:0;
+	margin:0;
+	text-indent:0;
+}
+
+dl.linklist dt a:link {
+        text-decoration :none;
+        border-bottom: dotted #66f 1px;
+}
+
+dl.linklist dt a:visited {
+        text-decoration :none;
+        border-bottom: dotted #fc3 1px;
+}
+
+dl.linklist dt a:active {
+        text-decoration :none;
+        border-bottom: dotted #fc3 1px;
+}
+
+
+dl.linklist dd {
+        margin: 0;
+        padding: 0 0 1em 0;
+}
+
+ul.booklist {
+        margin-left: 0;
+        padding-left: 0;
+}
+
+ul.booklist li {
+        border-bottom: 1px #999 dotted;
+        padding-top: 5px;
+        padding-left: 80px;
+        min-height: 100px;
+        list-style-type: none;
+        background-repeat: no-repeat;
+        background-position: left 10px;
+}
+
+
+h2 a {
+        text-decoration:none;
+}
+
+h2 a:visited {
+	color: #66f;
+}
+
+h2 span {
+        font-weight: normal;
+        border-left: 1px solid #333;
+        padding-left: 5px;
+}
+
+
+img.thumb {
+        float: right;
+}
+
+img.pix, img.thumb {
+        margin: 2px;
+        border: 1px solid #ccc;
+        padding: 5px;
+}
+
+a img.thumb:hover, a img.pix:hover {
+        border-color: #666;
+}

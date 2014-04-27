@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Phil's pics Index</title>
+<script src="/script/browser_detect.js" type="text/javascript"></script>
+<script type="text/javascript">//<![CDATA[
+function loadImg(index){
+//Find which browser we're serving
+//browserdetect_lite.js courtesy of http://www.dithered.com/javascript/browser_detect/index.html
+//Released under Creative Commons license
+var browser = new BrowserDetect();
+var pngAlphaIEFix =  ((browser.isIE55 || browser.isIE6up) && browser.isWin32);
+//if (pngAlphaIEFix){alert("MSIE");}else{alert("notMSIE");}
+    switch(index)
+        {
+        case 0:
+        if (pngAlphaIEFix){
+            return "/img/webmapper_blur.gif";}
+        else{
+            return "/img/webmapper_blur.png";}
+        case 1:
+        if (pngAlphaIEFix){
+            return "/img/googlemapapi_blur.gif";}
+        else{
+            return "/img/googlemapapi_blur.png";}
+        case 2:
+        if (pngAlphaIEFix){
+            return "img/tatemodernapr06_blur.gif";}
+        else{
+            return "img/tatemodernapr06_blur.png";}
+        case 3:
+        if (pngAlphaIEFix){
+            return "img/primrosehillapr06_blur.gif";}
+        else{
+            return "img/primrosehillapr06_blur.png";}
+        }
+}
+function loadFocusImg(index){
+    switch(index)
+        {
+        case 0:
+            return "/img/webmapper.gif";
+        case 1:
+            return "/img/googlemapapi.gif";
+        case 2:
+            return "img/tatemodernapr06.gif";
+        case 3:
+            return "img/primrosehillapr06.gif";
+        }
+}
+function onLoad(){
+// Initialise images
+for (var i = 0; i < 4; i++) {
+    var anchorPicList = document.getElementById("anchor"+i);
+    anchorPicList.src=loadImg(i);
+    }
+} 
+//]]>
+  </script>
+
+</head>
+
+
+<body onload="onLoad();">
+    <div style="text-align: center">
+        <table style="text-align: center; background-position: center center; background-image: url(/img/acknowledgments.jpg);
+            background-repeat: no-repeat; margin-top: 3%; margin-left: 5%;">
+            <tr>
+                <td style="width: 213px; height: 24px">
+                    </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                    </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px; font-family: Verdana;">
+                    <span style="color: white; font-size: 0.8em; font-family: Verdana;">This site started it all</span></td>
+                <td style="width: 213px; height: 24px">
+                    <a  href="http://www.webmapper.net">
+                    <img id="anchor0" Width=213 Height=24 alt="www.webmapper.net" border="0"
+                    onmouseover="this.src=loadFocusImg(0)";
+                    onmouseout="this.src=loadImg(0)";/></a>
+                </td>
+                <td style="width: 213px; height: 24px; color: white; font-family: Verdana; font-size: 0.5em;">
+                    I copied their layout
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px; color: white; font-family: Verdana;">
+                    <strong>
+                    Thanks guys!</strong></td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                    <span style="color: white; font-family: Verdana; font-size: 0.7em;">Just awesome</span></td>
+                <td style="width: 213px; height: 24px; font-family: Verdana;">
+                    <span style="color: white"></span></td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                    <a  href="http://www.google.com/apis/maps/">
+                    <img id="anchor1" Width=213 Height=24 alt="Google Maps API" border="0"
+                    onmouseover="this.src=loadFocusImg(1)";
+                    onmouseout="this.src=loadImg(1)";/></a>
+                </td>
+                <td style="width: 213px; height: 24px">
+                    <span style="font-size: 0.6em; color: #ffffff; font-family: Verdana">Check it out</span></td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+           </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+               </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 213px; height: 24px">
+                    </td>
+                <td style="width: 213px; height: 24px">
+                </td>
+                <td style="width: 213px; height: 24px">
+                    </td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</html>

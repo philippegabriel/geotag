@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" lang="en-GB">
+<head>
+  <title>Phil's pics</title>
+
+  <link rel="stylesheet" href="/style/style.css" type="text/css" media="screen" />
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAU2LSAAL1F1U1PlUUyS8D9hSLJs-ToseJzNuhttqV5CYhXPbEaRQOlsL6DzXu96mywXg-5Uphn_Disw" type="text/javascript"></script>
+  <style type="text/css">
+v\:* {
+behavior:url(#default#VML);
+}
+  </style>
+  <script src="/script/parse.js" type="text/javascript"></script>
+  <script src="/script/geotagutils.js" type="text/javascript"></script>
+  <script type="text/javascript">//<![CDATA[
+function onLoad() {
+//Debug parse
+//
+//alert(fetchQuery());
+//alert(fetchFileName(fetchQuery()));
+//alert(fetchId(fetchQuery()));
+//alert(fetchZoom(fetchQuery()));
+//
+// Display Banner
+//
+var bannerPic=fetchBanner(fetchQuery())
+document.getElementById("banner").src=getBannerPicFile(bannerPic);
+
+//
+// Load XML File
+//
+var locationFile = fetchFileName(fetchQuery());
+var request = GXmlHttp.create();
+request.open("GET", locationFile.concat(".xml"), true);
+request.onreadystatechange = function() {
+if (request.readyState == 4) {
+var xmlDoc = request.responseXML;
+//
+//Parse the XML document
+//
+//Fetch the title
+var title = xmlDoc.documentElement.getElementsByTagName("title")[0].getAttribute("text");
+//Fetch Zoom factor
+var zoomFactor = parseInt(xmlDoc.documentElement.getElementsByTagName("zoomFactor")[0].getAttribute("level1"));
+//Fetch the geomarkers and the pictures
+//They could be collapsed into one tag, but that's more in keeping with the Google maps
+//example
+var markers = xmlDoc.documentElement.getElementsByTagName("marker");
+var pictures = xmlDoc.documentElement.getElementsByTagName("picture");
+var filesystem = xmlDoc.documentElement.getElementsByTagName("filesystem")[0].getAttribute("text");
+
+//
+//Display the title
+//
+document.getElementById("title").appendChild(document.createTextNode(title));
+//
+//Fetch the center point from the URL
+//
+var index = fetchId(fetchQuery());
+//Fetch coordinates
+var pointCenter = new GLatLng(parseFloat(markers[index].getAttribute("lat")), parseFloat(markers[index].getAttribute("lng")));
+//
+//Create the map
+//
+var map = new GMap2(document.getElementById("gmap"));
+map.addControl(new GSmallMapControl());
+map.addControl(new GMapTypeControl());
+map.setCenter(pointCenter,zoomFactor);
+map.setMapType(G_HYBRID_MAP);
+//
+//Display the markers
+//
+var list = document.getElementById("picList");
+
+for (var i = 0; i < markers.length; i++) {
+    if(parseInt(pictures[i].getAttribute("level"))!=1)
+        {continue;} //skip this marker should really give a hint in the ui that there's more than 1 pic
+    // Create a new Node
+    var newNodeli = document.createElement("li");
+    var newNodea = document.createElement("a");
+    // Add text to node
+    newNodea.href="geopicsl2v2.html?file="+locationFile+"&id="+i+"&banner="+bannerPic;
+    newNodea.appendChild(document.createTextNode(pictures[i].getAttribute("text")));
+    newNodeli.appendChild(newNodea);
+    //Add node to list
+    list.appendChild(newNodeli);
+    //Add Marker to map with node info
+    var point = new GPoint(parseFloat(markers[i].getAttribute("lng")),parseFloat(markers[i].getAttribute("lat")));
+    //Add marker on the map
+    var thumbPicNode= createInfoWindowHtml(newNodea,pictures,i,filesystem);
+
+    // Creates a marker at the given point with the given number label
+        function createMarker(point, node) {
+          var marker = new GMarker(point,createIcon());
+          GEvent.addListener(marker, "click", function() {
+            marker.openInfoWindow(node);});
+          return marker;}
+    map.addOverlay(createMarker(point, thumbPicNode));
+    }
+}
+}
+request.send(null);
+}
+//]]>
+  </script>
+</head>
+
+
+<body onload="onLoad();" onunload="GUnload();">
+
+<div id="content">
+<div id="header"> <img id="banner" height=89 width=512 alt="Phil's collection of geotagged pics" border="0" />
+<div id="topnav">
+<ul>
+  <li class="first"><a href="/img/about.jpg" title="About me and this site.">about</a></li>
+  <li><a href="#emptyLink" title="Drop me a line." onclick="alert('philippegabriel@hotmail.com')">contact</a></li>
+  <li><a href="/common/acknowledgments.html" title="Special thanks to these people">acknowledgments</a></li>
+  <li><a href="/img/about.jpg" title="Check that">tools</a></li>
+</ul>
+<a name="emptyLink">
+
+</div>
+
+<ul id="tabs">
+
+  <li><a href="/" title="Go back to square one.">home</a></li>
+
+  <li><a href="/" title="Photos">photos</a></li>
+
+</ul>
+
+</div>
+
+<div id="main">
+<h1 id="title"></h1>
+
+<div id="gmap" style="width: 400px; height: 300px;"></div>
+
+</div>
+
+<div id="sidebar">
+<ul id="picList" class="nobullets">
+
+</ul>
+
+
+
+
+</div>
+<div id="footer">
+	<hr />
+	<p>This website is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/" title="Attribution-NonCommercial-ShareAlike License.">Creative Commons License</a></p>
+
+</div>
+</div>
+
+</body>
+</html>

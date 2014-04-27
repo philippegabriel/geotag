@@ -1,0 +1,192 @@
+<markers>
+	<title text="Downtown Vancouver"/>
+  <filesystem text="flickr"/>
+  <zoomFactor level1="12" level2="15"/>
+  <marker lng="-123.138885" lat="49.274861"/>
+	<picture level="1" text="Burrard Bridge south end" 
+		caption="Standing on the south end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeOct2004_04"/>
+	<marker lng="-123.138885" lat="49.274861"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the south end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeOct2004_05"/>
+	<marker lng="-123.138885" lat="49.274861"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the south end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeOct2004_06"/>
+	<marker lng="-123.138885" lat="49.274861"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the south end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeOct2004_07"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="1" text="Burrard Bridge north end" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_01"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_02"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_03"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_04"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_05"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_06"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_07"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_08"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_09"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="2" text="Burrard Bridge" 
+		caption="Standing on the north end, looking west"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_10"/>
+
+	<marker lng="-123.135924" lat="49.275897"/>
+	<picture level="1" text="Towards beach avenue" 
+		caption="Standing on the south end, looking towards beach avenue"
+		filename="/pics/VancouverBridges/BurrardBridgeWest4Oct2004_11"/>
+
+	<marker lng="-123.133918" lat="49.272047"/>
+	<picture level="1" text="Granville Bridge south end" 
+		caption="Standing on the south end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast1Oct2004_01"/>
+
+	<marker lng="-123.133918" lat="49.272047"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the south end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast1Oct2004_02"/>
+
+	<marker lng="-123.133918" lat="49.272047"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the south end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast1Oct2004_03"/>
+
+	<marker lng="-123.133918" lat="49.272047"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the south end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast1Oct2004_04"/>
+
+	<marker lng="-123.133918" lat="49.272047"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the south end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast1Oct2004_05"/>
+
+	<marker lng="-123.133918" lat="49.272047"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the south end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast1Oct2004_06"/>
+
+	<marker lng="-123.133918" lat="49.272047"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the south end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast1Oct2004_07"/>
+
+	<marker lng="-123.133918" lat="49.272047"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the south end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast1Oct2004_08"/>
+
+
+	<marker lng="-123.132395" lat="49.273013"/>
+  <picture level="1" text="Granville Bridge north end" 
+		caption="Standing on the north end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast3Oct2004_01"/>
+	<marker lng="-123.132395" lat="49.273013"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the north end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast3Oct2004_02"/>
+	<marker lng="-123.132395" lat="49.273013"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the north end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast3Oct2004_03"/>
+	<marker lng="-123.132395" lat="49.273013"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the north end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast3Oct2004_04"/>
+	<marker lng="-123.132395" lat="49.273013"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the north end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast3Oct2004_05"/>
+	<marker lng="-123.132395" lat="49.273013"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the north end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast3Oct2004_06"/>
+	<marker lng="-123.132395" lat="49.273013"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the north end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast3Oct2004_07"/>
+	<marker lng="-123.132395" lat="49.273013"/>
+  <picture level="2" text="Granville Bridge" 
+		caption="Standing on the north end, looking East"
+		filename="/pics/VancouverBridges/GrandvilleBridgeEast3Oct2004_08"/>
+  <marker lng="-123.120711" lat="49.281804"/>
+  <picture level="1" text="Chapters on Robson" 
+		caption="jan05, view from the top floor"
+		filename="http://static.flickr.com/46/137809711_42c8bd693f"/>
+  <marker lng="-123.120711" lat="49.281804"/>
+  <picture level="2" text="Chapters on Robson" 
+		caption="jan05, view from the top floor"
+		filename="http://static.flickr.com/53/137809803_6102e7e8a9"/>
+  <marker lng="-123.128757" lat="49.284212"/>
+  <picture level="1" text="View from my flat" 
+		caption="jan05, packing my bags for the journey home, time for a last picture."
+		filename="http://static.flickr.com/54/137809896_0dd1c98d83"/>
+  <marker lng="-123.142426" lat="49.286577"/>
+  <picture level="1" text="English Bay" 
+		caption="jan05, English Bay under the snow, not long after the polar bear swim."
+		filename="http://static.flickr.com/53/137810017_bee3f43bbb"/>
+  <marker lng="-123.142426" lat="49.286577"/>
+  <picture level="2" text="English Bay" 
+		caption="jan05, English Bay under the snow, not long after the polar bear swim."
+		filename="http://static.flickr.com/48/137810068_c91d0c04d1"/>
+  <marker lng="-123.142426" lat="49.286577"/>
+  <picture level="2" text="English Bay" 
+		caption="jan05, English Bay under the snow, not long after the polar bear swim."
+		filename="http://static.flickr.com/44/137810113_a59e40db05"/>
+  <marker lng="-123.142426" lat="49.286577"/>
+  <picture level="2" text="English Bay" 
+		caption="jan05, English Bay under the snow, not long after the polar bear swim."
+		filename="http://static.flickr.com/56/137810195_4b67cf3c66"/>
+  <marker lng="-123.142426" lat="49.286577"/>
+  <picture level="2" text="English Bay" 
+		caption="jan05, English Bay under the snow, not long after the polar bear swim."
+		filename="http://static.flickr.com/52/137810272_7b3bbc6a32"/>
+  <marker lng="-123.158884" lat="49.301285"/>
+  <picture level="1" text="3rd Beach under the snow" 
+		caption="jan05, 3rd beach under the snow"
+		filename="http://static.flickr.com/50/137810340_a243dbbf9e"/>
+  <marker lng="-123.158884" lat="49.301285"/>
+  <picture level="2" text="the Seawall" 
+		caption="jan05, going back downtown, that's it last picture, back accross the pond."
+		filename="http://static.flickr.com/52/137810407_10a8b84f7e"/>
+
+</markers>
+
